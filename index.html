@@ -3,51 +3,70 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>XYZ Apps | Mobile App Developer & Publisher</title>
+  <title>XYZ Apps | Mobile App Publisher</title>
 
   <style>
     body {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
       margin: 0;
-      background: #f9fafb;
-      color: #1f2937;
+      background: #f3f4f6;
+      color: #111827;
       line-height: 1.6;
     }
 
     header {
-      background: #111827;
+      background: linear-gradient(135deg, #111827, #1f2937);
       color: white;
-      padding: 3rem 1rem;
+      padding: 4rem 1rem;
       text-align: center;
     }
 
     header h1 {
-      margin: 0 0 0.5rem 0;
-      font-size: 2.2rem;
+      margin: 0;
+      font-size: 2.5rem;
+      letter-spacing: 0.5px;
+    }
+
+    header p {
+      margin-top: 0.75rem;
+      opacity: 0.9;
+      font-size: 1.1rem;
+    }
+
+    nav {
+      text-align: center;
+      background: white;
+      padding: 0.75rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      position: sticky;
+      top: 0;
+    }
+
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #2563eb;
+      font-weight: 500;
     }
 
     main {
-      max-width: 900px;
-      margin: 2rem auto;
+      max-width: 1000px;
+      margin: 2.5rem auto;
       padding: 0 1rem;
     }
 
     section {
-      margin-bottom: 2.5rem;
+      background: white;
+      padding: 2rem;
+      border-radius: 14px;
+      margin-bottom: 2rem;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.05);
     }
 
     h2 {
+      margin-top: 0;
       border-bottom: 2px solid #e5e7eb;
-      padding-bottom: 0.4rem;
-    }
-
-    a {
-      color: #2563eb;
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
+      padding-bottom: 0.5rem;
     }
 
     footer {
@@ -56,74 +75,123 @@
       font-size: 0.9rem;
       color: #6b7280;
       border-top: 1px solid #e5e7eb;
+      background: white;
       margin-top: 3rem;
     }
+
+    a { color: #2563eb; }
   </style>
 </head>
 
 <body>
   <header>
     <h1>XYZ Apps</h1>
-    <p>Mobile Application Development & Publishing Company</p>
+    <p>Professional Mobile App Development & Publishing</p>
   </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#apps">Apps</a>
+    <a href="#support">Support</a>
+    <a href="#privacy">Privacy Policy</a>
+  </nav>
 
   <main>
 
-    <section>
+    <section id="about">
       <h2>About XYZ</h2>
       <p>
         XYZ is a mobile application development and publishing company focused on
-        building intuitive, scalable, and user-friendly digital products. We design,
-        develop, and maintain applications distributed through the Apple App Store
-        and Google Play Store.
+        delivering secure, reliable, and user-friendly digital products. We design,
+        develop, publish, and maintain applications distributed through the Apple
+        App Store and Google Play Store.
       </p>
       <p>
-        Our expertise includes cross-platform mobile development, cloud backend
-        integration, and modern app deployment workflows.
+        Our work spans productivity tools, booking platforms, community apps, and
+        lifestyle experiences supported by modern cloud infrastructure.
       </p>
     </section>
 
-    <section>
-      <h2>Our Apps</h2>
+    <section id="apps">
+      <h2>Our Applications</h2>
       <p>
-        XYZ develops applications across multiple categories including productivity,
-        community platforms, booking systems, and lifestyle apps. Each app listing
-        in the App Store includes detailed information, feature descriptions, and
+        XYZ develops and publishes multiple mobile applications. Each App Store
+        listing contains full feature descriptions, screenshots, and
         app-specific privacy disclosures.
       </p>
     </section>
 
-    <section>
+    <section id="support">
       <h2>Support</h2>
       <p>
-        For technical support, feature requests, or questions about any XYZ app,
-        please contact our support team:
+        For technical support, account inquiries, or feedback regarding any XYZ
+        application, contact us:
       </p>
       <p>
-        Email: <a href="mailto:support@xyzapps.com">support@xyzapps.com</a>
+        Support Email: <a href="mailto:support@xyzapps.com">support@xyzapps.com</a><br>
+        General Inquiries: <a href="mailto:info@xyzapps.com">info@xyzapps.com</a>
       </p>
     </section>
 
-    <section>
+    <section id="privacy">
       <h2>Privacy Policy</h2>
-      <p>
-        We respect user privacy and handle personal data responsibly. Each
-        application published by XYZ includes a dedicated privacy policy describing
-        what data is collected, how it is used, and how users can request data
-        deletion or support.
-      </p>
-      <p>
-        View our general privacy policy here:
-        <a href="privacy.html">Privacy Policy</a>
-      </p>
-    </section>
 
-    <section>
-      <h2>Business Information</h2>
+      <p><strong>Effective Date:</strong> January 2026</p>
+
+      <h3>1. Information We Collect</h3>
       <p>
-        Company Name: XYZ<br>
-        Business Type: Mobile App Development & Publishing<br>
-        Contact Email: info@xyzapps.com
+        Depending on the application, we may collect information such as account
+        details, usage analytics, device information, and content users provide
+        directly within the app.
+      </p>
+
+      <h3>2. How We Use Information</h3>
+      <p>
+        Data is used to operate and improve our apps, provide customer support,
+        enhance security, personalize user experience, and comply with legal
+        obligations.
+      </p>
+
+      <h3>3. Data Sharing</h3>
+      <p>
+        We do not sell personal data. Information may be shared with trusted
+        service providers such as hosting, analytics, or payment partners solely
+        to operate our services.
+      </p>
+
+      <h3>4. Data Retention</h3>
+      <p>
+        We retain information only as long as necessary to provide services,
+        comply with legal obligations, and resolve disputes.
+      </p>
+
+      <h3>5. Security</h3>
+      <p>
+        We implement technical and organizational safeguards to protect user
+        data against unauthorized access or disclosure.
+      </p>
+
+      <h3>6. Your Rights</h3>
+      <p>
+        Users may request access, correction, or deletion of their data by
+        contacting us at the email below.
+      </p>
+
+      <h3>7. Children's Privacy</h3>
+      <p>
+        Our apps are not intended for children under 13 unless explicitly stated.
+        We do not knowingly collect children's personal information.
+      </p>
+
+      <h3>8. Policy Updates</h3>
+      <p>
+        This policy may be updated periodically. Updates will be posted on this
+        page with a revised effective date.
+      </p>
+
+      <h3>9. Contact</h3>
+      <p>
+        Privacy inquiries: <a href="mailto:privacy@xyzapps.com">privacy@xyzapps.com</a>
       </p>
     </section>
 
